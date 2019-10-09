@@ -1,0 +1,32 @@
+Project is on Evaluation System(Checking paper online)
+Build in C# as frontend(Visual Studio 2015) and SQL Server 2008 as backend
+Their is two side of System
+1)Server
+2)Client
+
+Both can be viewed from visual studio 2015
+for Server
+Visual Studio->Open->Project->Locate the SLN file (i.e. Server.sln )
+for Client
+Visual Studio->Open->Project->Locate the SLN file (i.e. Client.sln )
+
+Database is also included into this, namely Chor.MDF and Chor.LDF
+This both have to be attached to SQL server 2008
+Open Sql server(Run as Administrator)-> Log into your sqlsever
+Expand the node on left side
+Right click on Database and select Attach
+Click on Add button and browse the location of Chor.mdf file(You will see only MDF file,LDF will be automatically added)
+Click ok and That's it
+
+
+NOTE:
+You have to change the Connection String on both Server as well as client
+you have to find this line into all pages of project
+SQLConnection con=new SQLConnection("Data source=ACER\\SQLEXPRESS;Initial Catalog=Chor;Integrated Security=true")
+Replace ACER\\SQLEXPRESS with you SQLSERVER[you can find this by open sql server 2008 and when you prompt to select windows or sql authentication you will find Textbox which have you sqlserver name]
+thats its
+enjoy
+
+
+
+

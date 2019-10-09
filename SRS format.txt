@@ -1,0 +1,60 @@
+Software requirement system For Online Valuation System
+
+
+1.Introduction
+
+   1.1 Purpose: The purpose of this  software is that it provide a convenient for evalautor to evaluate the answer sheet easily.
+   1.2 Scope: This software will saves the time for correcting the paper and counting marks as well as it saves time of transportation.
+   1.3 System overview:
+        The system have two phase:
+        a)Admin &
+        b)Evaluator
+         a)Admin:Admin have previlage to  add, delete, change the evaluator profile.They also have permission to upload the scanned  image to the database.Admipaersn can allocate and deallocate the evaluator for particular exam.
+         b)Evaluator:Evaluator can login to evaluate the papers.They have option to allocate the required slot according to thier convenient.Evaluator can view summary  of their own  allocation to view thier progress.
+
+
+2.Overall Description
+  2.1 System perspective:
+    a)System interface:
+        Operating System-> Any operating system.
+        Software         ->Net Framework 4.5 and above,adobe reader.
+    b)User interface:
+	User interface should be  easy and convenient.
+	Application is a window form and can be accessed just on click.
+	Evaluator or admin cannot do anything without logging in into the software.
+    c)Hardware interface:
+	RAM:1Gb or more.
+	Processor:Pentium 1.75GHz or higher.
+    d)Software interface:
+        Net framework 4.5 ,Adobe reader.
+    e)Communication interface:
+        Internet connection by any medium.
+  2.2 System functions
+     a)User characteristics: User should have basic knowledge of english and computer and also have knowledge of working with appliaction on computer.
+     b)External interface requirements:
+      i)Design of the software:The design should be developed such that it is easy for users to use the program available in the system.It  is secured,accurate and reliable.
+     ii)Platform independent:The application shold be run any platform smoothly and easily.
+  iii) Functional requirements:
+      Services provided by the system to it's end user is called functional requirements.
+       a)Evaluator: Evaluator will login  into system for evaluating the answersheet.A marks will be calculated automatically.
+       b)Administrator: The database is hosted on server.A admin have previlage to change the role of evaluator,can view the marks.
+  iv)Performance requirements:
+       The database shall be able to accomodate a maximum of users.
+       There are no other specific performance requirements that will affect development.
+   2.3 Logical Database requirements:
+       SQL Server 2008
+          Sql server 2008 is used as a database with no special skills to learn.
+	  User can create tables,views,queries,modify.
+          sql database is portable.
+   2.4 System Attributes:
+      a)Reliability:The database can crash at any certain time due to virus or operating system failure.Therefore it is required to take a back up of database.
+      b)Availability:System will be available around the clock except for the time requires for backup of data.
+      c)Security: to protect the system from accidental or malicious access,destruction a following measures to be followed:
+                   i)Keep Specific log.
+		   ii)Restrict communication between some areas of program.
+      d)Maintainability: Installation and operation manual will be provided to the users.
+      e)Portability:    Application is build using .Net framework.It woul be portable to other operating system provided compatible .Net framework is available on that OS.
+   2.5 Other Requirements:
+  	No other requirements.
+   3.System Evolution:
+ 
